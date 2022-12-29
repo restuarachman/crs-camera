@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-include('drivers/crs_ontology.php');
+include('drivers/Crs_ontology.php');
 
 class CRS extends CI_Driver_Library
 {
@@ -12,7 +12,7 @@ class CRS extends CI_Driver_Library
 	{
 		$this->CI =& get_instance();
 		$this->ontology = new CRS_Ontology();
-		$this->valid_drivers = array('crs_ontology', 'crs_pre', 'crs_usermodeling', 'crs_usermodel');
+		$this->valid_drivers = array('Crs_ontology', 'Crs_pre', 'Crs_usermodeling', 'Crs_usermodel');
 	}
 }
 

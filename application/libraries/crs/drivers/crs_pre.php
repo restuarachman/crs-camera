@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-include('crs_product.php');
+include('Crs_product.php');
 
 class CRS_PRE extends CI_Driver
 {
