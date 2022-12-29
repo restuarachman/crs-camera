@@ -8,7 +8,7 @@ class FR extends CI_Controller
 		$this->load->model('Common_Model', 'cm', TRUE);
 		$this->load->model('User_Model', '', TRUE);
 		$this->load->model('Session_Model', 'ses', TRUE);
-		// $this->load->driver('crs');
+		$this->load->driver('crs');
 	}
 	
 	/*public function test()
