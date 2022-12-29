@@ -43,7 +43,7 @@ class FR extends CI_Controller
 		$data['brand']	= $this->cm->brand();
 		$data['os']		= $this->cm->os();
 		$data['type']	= $this->cm->type();
-		$data['fr'] 	= $this->crs->usermodeling->GenerateGeneralQ();
+		// $data['fr'] 	= $this->crs->usermodeling->GenerateGeneralQ();
 		
 		echo $this->load->view('fr/_fr', $data, true);
 	}
